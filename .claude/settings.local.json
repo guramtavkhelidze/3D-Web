@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git --version && gh --version 2>/dev/null || echo \"gh not found\")",
+      "Bash(cd \"C:\\\\Users\\\\Guram\\\\OneDrive\\\\Desktop\\\\3D Web\" && mv \"3d RENDER.jpg\" \"3d-RENDER.jpg\" && mv \"3d 45.png\" \"3d-45.png\" && ls)",
+      "Bash(cd \"C:\\\\Users\\\\Guram\\\\OneDrive\\\\Desktop\\\\3D Web\" && sed -i 's/3d RENDER\\\\.jpg/3d-RENDER.jpg/g; s/3d 45\\\\.png/3d-45.png/g' index.html && grep -n \"3d-RENDER\\\\|3d-45\" index.html)"
+    ]
+  }
+}
