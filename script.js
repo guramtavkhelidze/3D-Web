@@ -201,7 +201,7 @@
     if (!entries[0].isIntersecting || animated) return;
     animated = true;
 
-    const target = 50;
+    const target = 95;
     const duration = 900;
     const start = performance.now();
 
